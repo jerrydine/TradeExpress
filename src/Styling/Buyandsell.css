@@ -48,9 +48,14 @@
   border: 0;
   border-radius: 5px;
   padding: 20px 20px;
-  overflow-x: hidden;
+  
   
 }
+
+
+.img-buy{
+  width: 100%;
+   }
 
 .steps img{
   margin-bottom: 30px;
