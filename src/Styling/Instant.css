@@ -1,0 +1,161 @@
+.instant-nav a{
+  text-decoration: none;
+color: #000000;
+padding: 4px 0;
+flex: 50%;
+}
+
+.instant-nav a.active{
+  background-color:#fff ;
+  border-radius: 8px;
+  border: 0;
+}
+
+.instant-nav{
+  background-color: #E4E4E4;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+  font-size: smaller;
+  font-weight: 500;
+  border-radius: 5px;
+  border: 0;
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.2), 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+.instant-cont{
+  max-width: 90%;
+  margin: auto;
+  background-color: #FBF8FD;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 20px;
+  border: 1.5px solid rgba(97, 94, 94, 0.4);
+}
+
+.instant-cont h2{
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+/* INPUTS */
+.buy{
+  margin-top: 30px;
+}
+
+.buy label{
+  display: block;
+  font-weight: 700;
+  font-size: 18px ;
+  margin-bottom: 8px;
+}
+
+.buy select{
+  width: 100%;
+  font-weight: 600;
+  background-color: #fff;
+  border: 0;
+  border-radius: 5px;
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.2), 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 35px;
+  padding: 10px 5px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #000000!important;
+  
+  
+}
+
+
+
+.buy select placeholder{
+  color: #000000!important;
+}
+
+.buy select span{
+  border-right: 1px solid black;
+}
+
+.buy .amount-input{
+  width: 100%;
+  font-weight: 600;
+  background-color: #fff;
+  border: 0;
+  border-radius: 5px;
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.2), 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 35px;
+  padding: 10px 5px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #000000!important;
+}
+
+
+
+
+
+.buy .btn-submit{
+display: block;
+width: 100%;
+padding: 10px 0;
+background: #7C20BF;
+color: #fff;
+border-radius: 5px;
+border: 0;
+margin: 20px 0 20px 0;
+}
+
+
+/* RESPONSIVENESS */
+@media (min-width: 576px) and (max-width:768px){
+  .instant-cont{
+    max-width: 50%;
+  padding: 40px;
+  }
+
+}
+
+
+@media (min-width: 769px) and (max-width:992px){
+  .instant-cont{
+    max-width: 50%;
+    padding: 50px;
+  }
+
+  .instant-cont h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+  }
+  
+}
+
+
+@media (min-width: 993px) and (max-width:1200px){
+  .instant-cont{
+    max-width: 35%;
+    padding: 50px;
+  }
+
+  .instant-cont h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 80px;
+  }
+}
+
+
+@media (min-width: 1200px){
+  .instant-cont{
+    max-width: 35%;
+    padding: 30px;
+  }
+
+  .instant-cont h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+  }
+}

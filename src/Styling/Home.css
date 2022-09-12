@@ -1,0 +1,80 @@
+/* RESPONSIVENESS */
+@media (max-width: 465px){
+.dashboard{
+  display: flex;
+  
+}
+
+
+.dash-contain{
+  width: 100%;
+}
+
+.cont-responsive{
+  max-width: 340px;
+}
+/* .break{
+  display: none;
+} */
+
+.dash-contain h2{
+  font-size: 23px;
+}
+}
+
+@media (min-width: 466px) and (max-width:620px){
+
+  .dash-contain h2{
+    font-size: 23px;
+  }
+
+  .cont-responsive{
+    max-width: 430px;
+    
+  }
+
+  .dashboard{
+    display: flex;
+    
+  }
+
+  
+  .dash-contain{
+    width: 100%;
+  }
+}
+
+@media (min-width: 621px) and (max-width:768px){
+  .dashboard{
+    display: flex;
+    
+  }
+  
+  
+  .dash-contain{
+    width: 100%;
+  }
+
+  
+.cont-responsive{
+  max-width: 520px;
+}
+}
+
+
+@media (min-width: 769px) and (max-width:992px){
+   
+.cont-responsive{
+  max-width: 740px;
+}
+}
+
+
+@media (min-width: 993px) and (max-width:1200px){
+    
+.cont-responsive{
+  max-width: 940px;
+}
+}
+
+

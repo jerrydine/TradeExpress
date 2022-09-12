@@ -1,0 +1,124 @@
+.login-cont{
+  max-width: 70%;
+  height: 80%;
+  margin: auto;
+  background-color: #FBF8FD;
+  margin-top: 20px;
+  border: 1.5px solid rgba(97, 94, 94, 0.4);
+  border-radius: 5px;
+  padding: 20px;
+  padding-top: 50px;
+}
+
+.login-cont h2{
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.login-cont input{
+  width: 100%;
+  font-weight: 600;
+  background-color: #fff;
+  border: 0;
+  border-radius: 5px;
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.2), 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 35px;
+  padding: 10px 5px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #000000!important;
+}
+/* 
+.login-flex{
+  display: flex;
+} */
+
+.login-flex{
+  font-weight: 600;
+  line-height: 1.7;
+  margin-bottom: 50px;
+}
+
+p{
+  font-size: small;
+}
+.log1{
+  display: flex;
+  align-items: center
+}
+
+#forgot-log{
+  color: #7C20BF;
+}
+
+.log1 #icon-log{
+  background-color:#fff ;
+  color: #7C20BF;
+  margin-right: 7px;
+}
+
+#signup{
+  text-align: center;
+  font-weight: 600;
+}
+
+#signup a{
+text-decoration: none;
+color: #7C20BF;
+}
+
+
+
+/* Responsiveness */
+
+@media (min-width: 576px) and (max-width:768px){
+.login-cont{
+  max-width: 50%;
+  padding: 40px;
+  
+}
+}
+
+
+@media (min-width: 769px) and (max-width:992px){
+  .login-cont{
+    max-width: 40%;
+    padding: 40px;
+  
+  }
+
+  .login-flex{
+    display: flex;
+    justify-content: space-between;
+  
+}
+}
+
+
+@media (min-width: 993px) and (max-width:1200px){
+  .login-cont{
+    max-width: 30%;
+    padding: 50px;
+  }
+
+
+  .login-flex{
+    display: flex;
+    justify-content: space-between;
+}
+}
+
+
+@media (min-width: 1200px){
+  .login-cont{
+    max-width: 30%;
+    padding: 50px;
+  }
+
+
+  .login-flex{
+    display: flex;
+    justify-content: space-between;
+}
+}

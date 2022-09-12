@@ -1,0 +1,184 @@
+.whycrypto .why-heading {
+text-align: center;
+color: #26093A;
+margin-bottom: 20px;
+}
+
+.whycrypto{
+  background-color: #F2F2F2;
+  padding: 40px 20px;
+  max-width: 100%;
+  margin: auto;
+}
+
+.why-container{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.lets-explain{
+  margin: 20px 0;
+  background-color: #FFFFFF;
+  padding: 40px 20px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.1), 0 0 10px rgba(0, 0, 0, 0.1); 
+  border: 0;
+  border-radius: 5px;
+}
+
+.lets-explain h3{
+  margin: 20px 0;
+  color: #26093A;
+  font-weight: 700;
+}
+
+.lets-explain p{
+  color: #26093A;
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 10px;
+}
+
+#btn-why{
+  margin: 20px 0;
+  padding: 10px;
+  color: #000000;
+  font-weight: 600;
+  width: 100%;
+}
+
+/* RESPONSIVENESS */
+@media (min-width: 576px) and (max-width:768px){
+
+  .whycrypto{
+    padding:  40px;
+  }
+
+  .why-container{
+    max-width: 50%;
+    margin: auto;
+  }
+
+  .whycrypto h2{
+    font-size: 20px;
+    font-weight: 1000px;
+  }
+
+  
+.btn1{
+  max-width: 30%;
+  margin: 10px auto;
+}
+
+  
+}
+
+
+@media (min-width: 769px) and (max-width:992px){
+
+  
+.why-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  
+}
+.btn1{
+  max-width: 30%;
+  margin: auto;
+}
+
+.lets-explain{
+  flex: 1;
+  margin: 0 8px;
+}
+
+.lets-explain p{
+  font-size: 10px;
+}
+
+.lets-explain h3{
+  font-size: 15px;
+}
+
+.btn1{
+  max-width: 50%;
+  margin: 10px auto;
+}
+}
+
+
+@media (min-width: 993px) and (max-width:1200px){
+
+  
+.why-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  
+}
+.btn1{
+  max-width: 30%;
+  margin: auto;
+}
+
+.lets-explain{
+  flex: 1;
+  margin: 0 8px;
+}
+
+.lets-explain p{
+  font-size: 10px;
+}
+
+.lets-explain h3{
+  font-size: 15px;
+}
+
+
+.btn1{
+  max-width: 20%;
+  margin: 10px auto;
+}
+  
+}
+
+
+@media (min-width: 1200px){
+   
+.why-container{
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  
+}
+.btn1{
+  max-width: 20%;
+  margin: 10px auto;
+}
+
+.lets-explain{
+  flex: 1;
+  margin: 0 8px;
+}
+
+.lets-explain p{
+  font-size: 10px;
+}
+
+.lets-explain h3{
+  font-size: 15px;
+}
+  
+}
+

@@ -1,0 +1,43 @@
+.respond li{
+list-style-type: none;
+padding: 15px 0;
+font-size: 15px;
+
+}
+
+.respond li a{
+  text-decoration: none;
+  color: #7C20BF;
+  
+}
+/*  
+.respond li a:active{
+  color: #fff!important;
+  background-color: #7C1FBF;
+  font-weight: 500;
+  font-size: x-small;
+  border-radius: 5px;
+  border: 0;
+  padding: 7px 25px!important;
+  
+}  */
+
+.respond{
+  background-color: #fff;
+  padding: 30px ;
+  max-width: 100%;
+  height: 100vh;
+  text-align: center;
+  cursor: pointer;
+
+  
+ 
+
+}
+
+
+.respond li a:hover{
+ border: 1px solid #7C20BF;
+ padding: 7px 20px;
+ border-radius: 7px;
+}
